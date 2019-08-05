@@ -56,8 +56,6 @@ class API():
     RTT_CHANNEL_INDEX = 0
     RTT_READ_BUF_LEN = 500
 
-    PPK_CMD_WRITE_DELAY = 0.25
-
     def __init__(self, nrfjprog_api, logprint=True):
         """A stateful interface to a Nordic Power Profiler Kit."""
         self.nrfjprog_api = nrfjprog_api
