@@ -91,6 +91,7 @@ class API():
                                                           self._resistors[1],
                                                           self._resistors[2]))
         self._connected = True
+        #self.set_user_resistors(116.800, 16.100, 1.000)
 
     def reset_connection(self):
         """Stop RTT, flush it, and then connect to the PPK again."""
